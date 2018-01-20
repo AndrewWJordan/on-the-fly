@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<link href="public/css/style.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<body>
+
+<div id="video-wrapper">
+  <video autoplay muted loop id="myVideo">
+    <source src="public/images/large.mov" />
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+<div class="content brand">
+  <span>On</span>
+  <span>the</span>
+  <span>Fly</span>
+</div>
+<div id="nav">
+  <ul>
+    <li>About</li>
+    <li>Stats</li>
+    <li>Contact</li>
+  </ul>
+</div>
+
+<div class="main">
+  <h1>Section 1</h1>
+  <p>This is some test text. This is some test text. This is some test text.</p>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
+
