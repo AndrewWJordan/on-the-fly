@@ -55,6 +55,28 @@ body {
     top:3em;
 }
 
+#nav {
+    position: fixed;
+    right: 0;
+    top: 25%;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1em;
+    padding: 8px;
+    background-color: #e4eae6;
+    color: #000;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
 #myBtn {
     width: 200px;
     font-size: 18px;
