@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="onTheFlyApp">
 <head>
+<base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 
 <link href="public/css/style.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Permanent+Marker" rel="stylesheet">
-<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+<script src="public/js/scripts.js"></script>
+</head>
+
+<body ng-controller="MainController">
 
 <div id="video-wrapper">
   <video autoplay muted loop id="myVideo">
@@ -21,18 +27,16 @@
 </div>
 <nav id="nav">
   <ul>
-    <a href="#about"><li>About</li></a>
-    <a href="#stats"><li>Stats</li></a>
-    <a href="#contact"><li>Contact</li></a>
+    <li><a href="#about">About</a></li>
+    <li><a href="#stats">Stats</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
 <section>
-  <div class="main">
-    <h1>Section 1</h1>
-    <p>Don't sweat the small stuff.  It's only a shock if you didn't expect it.  We'll just have to figure it out.  Speak your mind.  </p>
-  </div>
+  <div class="main" ng-view></div>
 </section>
+
 
 <script>
 var video = document.getElementById("myVideo");
