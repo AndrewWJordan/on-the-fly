@@ -1,0 +1,13 @@
+<!-- skills.html -->
+<h1>Skills</h1>
+<div class="body-content">
+	<ul>
+		<li ng-repeat="skill in skills">
+			{{skill.name}}
+			<ul>
+				<li ng-repeat="item in skill.details">
+					<span>{{item}}</span>
+				</li>
+		</li>
+	</ul>
+</div>

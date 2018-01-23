@@ -3,10 +3,13 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 0 3em;
     font-family: Arial;
     font-size: 17px;
     background-color: #1B3022;
+}
+ul {
+  list-style-type: none;
 }
 #video-wrapper {
     position: relative;
@@ -71,10 +74,15 @@ body {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1em;
     padding: 8px;
-    background-color: #e4eae6;
+    background-color: #EEF36A;
     color: #000;
     font-size: 1em;
     letter-spacing: 2px;
+}
+
+#nav li a {
+    color: #1B3022;
+    text-decoration: none;
 }
 
 #myBtn {
@@ -98,23 +106,23 @@ section {
     text-align: center;
 }
 
-section .main {
+section .body-content {
     margin: 0 auto;
+    padding: 3em;
+    background-color: #e4eae6;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 5px 10px #000;
 }
 
 section .main h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 4em;
     color: #e4eae6;
-    padding-bottom: 1em;
 }
-
-section .main p {
-    margin: 0 auto;
-    background-color: #e4eae6;
+section .body-content {
+    line-height: 1.3em;
+}
+section .body-content p {
     font-family: 'Open Sans', sans-serif;
-    padding: 3em;
-    min-height: 400px;
-    max-width: 800px;
-    text-align: left;
 }
