@@ -74,14 +74,14 @@ ul {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1em;
     padding: 8px;
-    background-color: #EEF36A;
-    color: #000;
+    background-color: #0e1014;
+    color: #fff;
     font-size: 1em;
     letter-spacing: 2px;
 }
 
 #nav li a {
-    color: #1B3022;
+    color: #fff;
     text-decoration: none;
 }
 

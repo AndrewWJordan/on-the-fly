@@ -50,7 +50,7 @@
 	        {
 	        	name: "Javascript",
 	        	skilllevel: 6.5,
-	        	details: ["vanilla", "jQuery", "Node/Express js", "AJAX"],
+	        	details: ["vanilla", "jQuery", "Node/Express js", "AJAX", "Angular"],
 	        },
 	        {
 	        	name: "CSS",
@@ -65,6 +65,11 @@
 	        	name: "Linux",
 	        	skilllevel: 7,
 	        	details: ["RedHat", "Open SUSE", "Ubuntu"],
+	        },
+	        {
+	        	name: "Databases",
+	        	skilllevel: 6,
+	        	details: ["MySQL", "MongoDB"],
 	        },
 	     
 	    ]
